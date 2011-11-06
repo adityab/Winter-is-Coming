@@ -3,24 +3,11 @@
   <head>
 	<script src="jquery.min.js"></script> 
 	<script src="rpg-beta.min.js"></script> 
-	<script>
-		var rpg;
-		window.onload = function() {
-			rpg = new Rpg("canvas_rpg");
-			rpg.loadMap('Homeside', {
-				tileset: '015-ForestTown01.png',
-				player:  {
-					x: 16, 
-					y: 14, 
-					filename: 'Old-Man.png'
-				}
-			}, function () { 
-				rpg.setScreenIn("Player"); 
-			});
-		}	
-	</script>	
+	<script src="game.js"></script>	
  </head>
-  <body style="margin: 0; overflow: hidden; background-color: #000;">
+  <body>
 		<canvas id="canvas_rpg" width="640px" height="480px"></canvas> 
+        <script type = "text/javascript">
+        window.onload = startGame;</script>
   </body>
 </html>
