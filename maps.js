@@ -24,6 +24,7 @@ function loadMaps() {
     rpg.prepareMap('Inside-home', {
 		tileset: '016-ForestTown02.png',
         autotiles: [
+                    '054-Wall02.png',
                     '052-Carpet02.png'
                    ],
             transfert: [{
@@ -38,7 +39,7 @@ function loadMaps() {
 
 function init() {
     
-    rpg.player.setTypeMove("real");
+    rpg.player.setTypeMove("tile");
     rpg.player.useMouse(true);
     rpg.setScreenIn("Player");
 }
