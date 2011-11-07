@@ -3,8 +3,8 @@ function loadMaps() {
     rpg.loadMap('Homeside', {
 		tileset: '015-ForestTown01.png',
         autotiles: [
-                    '001-G_Water01.png',
-                    '004-G_Ground02.png'
+                    'water.png',
+                    'ground.png'
                    ],
         events: ['signhome'],
 		player:  {
@@ -17,24 +17,52 @@ function loadMaps() {
             y: 12,
             map: 'Inside-home',
             x_final: 8,
-            y_final: 11,
-        }]
+            y_final: 11
+        },
+        {
+            x: 37,
+            y: 12,
+            map: 'Crossroads',
+            x_final: 1,
+            y_final: 17
+        }
+        ]
 	}, init);
 
 // Inside home
     rpg.prepareMap('Inside-home', {
 		tileset: '016-ForestTown02.png',
         autotiles: [
-                    '054-Wall02.png',
-                    '052-Carpet02.png'
+                    'wall.png',
+                    'carpet.png'
                    ],
         transfert: [{
             x: 8,
             y: 13,
             map: 'Homeside',
             x_final: 11,
-            y_final: 14,
+            y_final: 14
         }]
+	});
+
+// Crossroads
+
+    rpg.prepareMap('Crossroads', {
+		tileset: 'forest.png',
+        autotiles: [
+                    'road.png',
+                    'tree-forest.png',
+                    'ground.png'
+                   ],
+        events: ['crossroadsign'],
+        transfert: [{
+            x: 0,
+            y: 17,
+            map: 'Homeside',
+            x_final: 36,
+            y_final: 12
+        }
+        ]
 	});
 }
 

@@ -9,8 +9,7 @@
         {
             "trigger": "action_button",
             "commands": [
-                "SHOW_TEXT: {'text': 'Welcome to the house of Karl!'}",
-                "SHOW_TEXT: {'text': 'East: Crossroads.'}"
+                "SHOW_TEXT: {'text': '%KARL_SIGN%'}"
             ]
         }
     ]

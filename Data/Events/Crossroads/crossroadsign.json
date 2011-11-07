@@ -1,0 +1,17 @@
+[
+    {
+        "x": 24,
+        "y": 16,
+        "id": "1",
+        "name": "crossroadsign"
+    },
+    [
+        {
+            "trigger": "action_button",
+            "commands": [
+                "SHOW_TEXT: {'text': '%CROSS_SIGN1%'}",
+                "SHOW_TEXT: {'text': '%CROSS_SIGN2%'}"
+            ]
+        }
+    ]
+]
