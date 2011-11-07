@@ -18,7 +18,7 @@ function loadMaps() {
                 x_final: 8,
                 y_final: 11,
             }]
-		}, activateMap('Homeside'));
+		}, init);
 
 // Inside home
     rpg.prepareMap('Inside-home', {
@@ -33,9 +33,12 @@ function loadMaps() {
                 x_final: 11,
                 y_final: 14,
             }]
-		}, activateMap('Inside-home'));
+		});
 }
 
-function activateMap(name) {
-   rpg.setScreenIn("Player");
+function init() {
+    
+    rpg.player.setTypeMove("real");
+    rpg.player.useMouse(true);
+    rpg.setScreenIn("Player");
 }
