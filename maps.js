@@ -37,5 +37,5 @@ function loadMaps() {
 }
 
 function activateMap(name) {
-    
+   rpg.setScreenIn("Player");
 }
