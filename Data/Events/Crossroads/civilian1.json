@@ -19,7 +19,7 @@
             "alwaysOnTop": false,
             "speed": 4,
             "commands": [
-            "SHOW_TEXT: {'text': '%KARL_HUNTER_A%'}",
+            "SHOW_TEXT: {'text': '%KARL_HUNTER_1%'}",
             "SHOW_TEXT: {'text': '%KARL_HUNTER_2%'}",
             "SHOW_TEXT: {'text': '%KARL_HUNTER_3%'}",
             "SHOW_TEXT: {'text': '%KARL_HUNTER_4%'}",
