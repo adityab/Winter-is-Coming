@@ -1,0 +1,37 @@
+[
+    {
+        "x": 30,
+        "y": 22,
+        "id": "2",
+        "name": "civilian1"
+    },
+
+    [
+        {
+            "character_hue": "Hunter-1.png", "pattern": 0,
+            "trigger": "action_button",
+            "direction": "bottom",
+            "frequence": 4,
+            "type": "random",
+            "stop_animation": false,
+            "no_animation": false,
+            "direction_fix": false,
+            "alwaysOnTop": false,
+            "speed": 4,
+            "commands": [
+            "SHOW_TEXT: {'text': '%KARL_HUNTER_A%'}",
+            "SHOW_TEXT: {'text': '%KARL_HUNTER_2%'}",
+            "SHOW_TEXT: {'text': '%KARL_HUNTER_3%'}",
+            "SHOW_TEXT: {'text': '%KARL_HUNTER_4%'}",
+            "SHOW_TEXT: {'text': '%KARL_HUNTER_5%'}",
+            "SHOW_TEXT: {'text': '%KARL_HUNTER_6%'}",
+            "SHOW_TEXT: {'text': '%KARL_HUNTER_7%'}",
+            "SHOW_TEXT: {'text': '%KARL_HUNTER_8%'}",
+            "SHOW_TEXT: {'text': '%KARL_HUNTER_9%'}",
+            "SHOW_TEXT: {'text': '%KARL_HUNTER_10%'}",
+            "SHOW_TEXT: {'text': '%KARL_HUNTER_11%'}",
+            "SHOW_TEXT: {'text': '%KARL_HUNTER_12%'}"
+            ]
+        }
+    ]
+]

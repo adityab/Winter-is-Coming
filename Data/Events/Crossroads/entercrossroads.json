@@ -1,0 +1,16 @@
+[
+    {
+        "id": "3",
+        "name": "entercrossroads"
+    },
+    [
+        {
+            "trigger": "auto_one_time",
+            "commands": [
+                "SHOW_TEXT: {'text': '%CROSS_ENTRY1%'}",
+                "SHOW_TEXT: {'text': '%CROSS_ENTRY2%'}"
+            ]
+        }
+    ]
+]
+

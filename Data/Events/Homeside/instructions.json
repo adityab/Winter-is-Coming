@@ -1,0 +1,16 @@
+[
+    {
+        "id": "2",
+        "name": "instructions"
+    },
+    [
+        {
+            "trigger": "auto_one_time",
+            "commands": [
+                "SHOW_TEXT: {'text': '%INSTRUCT1%'}",
+                "SHOW_TEXT: {'text': '%INSTRUCT2%'}",
+                "SHOW_TEXT: {'text': '%INSTRUCT3%'}"
+            ]
+        }
+    ]
+]

@@ -6,7 +6,7 @@ function loadMaps() {
                     'water.png',
                     'ground.png'
                    ],
-        events: ['signhome'],
+        events: ['instructions', 'signhome'],
 		player:  {
 			x: 16, 
 			y: 14, 
@@ -54,7 +54,7 @@ function loadMaps() {
                     'tree-forest.png',
                     'ground.png'
                    ],
-        events: ['crossroadsign'],
+        events: ['entercrossroads', 'crossroadsign', 'civilian1'],
         transfert: [{
             x: 0,
             y: 17,
