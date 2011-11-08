@@ -1,0 +1,60 @@
+[
+    {
+        "x": 11,
+        "y": 8,
+        "id": "1",
+        "name": "wizard"
+    },
+
+    [
+        {
+            "character_hue": "wizard.png", "pattern": 0,
+            "trigger": "action_button",
+            "direction": "bottom",
+            "frequence": 4,
+            "type": "random",
+            "stop_animation": false,
+            "no_animation": false,
+            "direction_fix": false,
+            "alwaysOnTop": false,
+            "speed": 10,
+            "commands": [
+            "SHOW_TEXT: {'text': '%KARL_WIZ_1%'}",
+            "SHOW_TEXT: {'text': '%KARL_WIZ_2%'}",
+            "SHOW_TEXT: {'text': '%KARL_WIZ_3%'}",
+            "SHOW_TEXT: {'text': '%KARL_WIZ_4%'}",
+            "SHOW_TEXT: {'text': '%KARL_WIZ_5%'}",
+            "SHOW_TEXT: {'text': '%KARL_WIZ_6%'}",
+            "SHOW_TEXT: {'text': '%KARL_WIZ_7%'}",
+            "SHOW_TEXT: {'text': '%KARL_WIZ_8%'}",
+            "SHOW_TEXT: {'text': '%KARL_WIZ_9%'}",
+            "SHOW_TEXT: {'text': '%KARL_WIZ_10%'}",
+            "SHOW_TEXT: {'text': '%KARL_WIZ_11%'}",
+            "SHOW_TEXT: {'text': '%KARL_WIZ_12%'}",
+            "SHOW_TEXT: {'text': '%KARL_WIZ_13%'}",
+            "SHOW_TEXT: {'text': '%KARL_WIZ_14%'}",
+            "SHOW_TEXT: {'text': '%KARL_WIZ_15%'}",
+            "SHOW_TEXT: {'text': '%KARL_WIZ_16%'}",
+            "SHOW_TEXT: {'text': '%KARL_WIZ_17%'}",
+            "SHOW_TEXT: {'text': '%KARL_WIZ_18%'}",
+            "SHOW_TEXT: {'text': '%KARL_WIZ_19%'}",
+            "SHOW_TEXT: {'text': '%KARL_WIZ_20%'}",
+            "SHOW_TEXT: {'text': '%KARL_WIZ_21%'}",
+            "SHOW_TEXT: {'text': '%KARL_WIZ_22%'}",
+            "SHOW_TEXT: {'text': '%KARL_WIZ_23%'}",
+            "SHOW_TEXT: {'text': '%KARL_WIZ_24%'}",
+            "SHOW_TEXT: {'text': '%KARL_WIZ_25%'}",
+            "SHOW_TEXT: {'text': '%KARL_WIZ_26%'}",
+            "SHOW_TEXT: {'text': '%KARL_WIZ_27%'}",
+            "SHOW_TEXT: {'text': '%KARL_WIZ_28%'}",
+            "SHOW_TEXT: {'text': '%KARL_WIZ_29%'}",
+            "SHOW_TEXT: {'text': '%KARL_WIZ_30%'}",
+            "SHOW_TEXT: {'text': '%KARL_WIZ_31%'}",
+            "SHOW_TEXT: {'text': '%KARL_WIZ_32%'}",
+            "SHOW_TEXT: {'text': '%KARL_WIZ_33%'}",
+            "SHOW_TEXT: {'text': '%GAMEOVER%'}",
+            "SHOW_TEXT: {'text': 'You may now wander around the map as you wish.'}"
+            ]
+        }
+    ]
+]

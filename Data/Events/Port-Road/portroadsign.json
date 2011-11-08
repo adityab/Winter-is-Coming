@@ -1,0 +1,16 @@
+[
+    {
+        "x": 14,
+        "y": 10,
+        "id": "1",
+        "name": "portroadsign"
+    },
+    [
+        {
+            "trigger": "action_button",
+            "commands": [
+                "SHOW_TEXT: {'text': '%PORTROAD_SIGN%'}"
+            ]
+        }
+    ]
+]
